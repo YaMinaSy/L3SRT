@@ -1,0 +1,151 @@
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#entête
+  img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+/* Livres */
+.livres-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  padding: 20px;
+}
+
+.livre {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.livre img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.livre h3 {
+  margin: 0;
+}
+
+.livre p {
+  margin: 10px 0;
+}
+
+.livre .ajouter-panier {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+form label {
+  margin-bottom: 10px;
+}
+
+form input, form select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer h3 {
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+footer .reseaux-sociaux {
+  display: flex;
+  justify-content: center;
+}
+
+footer .reseaux-sociaux a {
+  margin: 0 10px;
+}
+
+footer .reseaux-sociaux img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+/* Bouton "Retour au début" en bas de page */
+.retour-au-debut {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
